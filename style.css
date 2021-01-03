@@ -1,0 +1,32 @@
+body{
+     font-family: 'Fira Code', monospace;;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+
+.name-highlight{
+    color: orange; 
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width button {
+    background-color: orange;
+    padding : 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+
