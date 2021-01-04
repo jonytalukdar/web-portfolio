@@ -21,13 +21,18 @@ h1 {
 .half-width img{
     width: 100%;
 }
-.half-width button {
-    background-color: orange;
-    padding : 10px;
+.half-width .link-button {
+    /* background-color: orange; */
+    background-image: linear-gradient(lightsalmon , tomato);
+    color: white;
+    text-decoration: none;
+    padding : 10px 15px;
     font-size: 18px;
+    font-weight: 400;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
 }
 
 #top-bar{
@@ -36,6 +41,13 @@ h1 {
     background-repeat: no-repeat;
     overflow: hidden;
     margin-bottom: 10px;
+}
+
+#middle-bar{
+    background-image: url(images/dream-bg.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 
